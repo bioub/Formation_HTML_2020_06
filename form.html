@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.google.fr/">Google</a>
+    <a href="https://www.google.com/search?q=css">Recherche CSS sur Google</a>
+
+    <form action="https://www.google.com/search" method="GET">
+        <input type="text" name="q" placeholder="Mots clés">
+        <button>Search</button>
+    </form>
+
+    <form action="https://www.google.com/search" method="GET">
+        <select name="q">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select>
+        <button>Search</button>
+    </form>
+
+    <form action="https://www.google.com/search" method="GET">
+        <label>
+            Marseille <input type="radio" name="q" value="Marseille">
+        </label>
+        <label>
+            Pau <input type="radio" name="q" value="Pau">
+        </label>
+        <button>Search</button>
+    </form>
+
+    <form>
+        <h3>Description :</h3>
+        <textarea></textarea>
+
+        <h3>Email :</h3>
+        <input type="email" required minlength="4">
+
+        <div>
+            <button>Go</button>
+        </div>
+    </form>
+</body>
+</html>
